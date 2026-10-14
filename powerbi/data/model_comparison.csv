@@ -1,0 +1,11 @@
+dataset,model,selected,accuracy,precision,recall,f1_score,roc_auc,pr_auc,threshold,train_seconds,tp,fp,fn,tn,dataset_name
+ulb,Logistic Regression,False,0.999,0.6667,0.8261,0.7379,0.9916,0.7198,0.976,11.4,76,38,16,56531,ULB European Credit Card (PCA)
+ulb,Decision Tree,False,0.9995,0.8861,0.7609,0.8187,0.9303,0.712,0.9997,3.2,70,9,22,56560,ULB European Credit Card (PCA)
+ulb,Random Forest,True,0.9995,0.9333,0.7609,0.8383,0.9876,0.8272,0.7281,13.0,70,5,22,56564,ULB European Credit Card (PCA)
+ulb,Gradient-Boosted Trees,False,0.9994,0.9014,0.6957,0.7853,0.9838,0.5288,0.9856,87.7,64,7,28,56562,ULB European Credit Card (PCA)
+ulb,Linear SVM,False,0.9989,0.6481,0.7609,0.7,0.991,0.6284,2.6244,52.4,70,38,22,56531,ULB European Credit Card (PCA)
+sparkov,Logistic Regression,False,0.9942,0.3699,0.7142,0.4874,0.9869,0.3148,0.9592,15.5,1532,2610,613,550964,Sparkov Simulated Card Transactions
+sparkov,Decision Tree,False,0.9978,0.7573,0.6326,0.6894,0.9468,0.5966,0.9932,5.6,1357,435,788,553139,Sparkov Simulated Card Transactions
+sparkov,Random Forest,True,0.999,0.9118,0.8145,0.8604,0.9965,0.907,0.8991,59.1,1747,169,398,553405,Sparkov Simulated Card Transactions
+sparkov,Gradient-Boosted Trees,False,0.9988,0.8294,0.8615,0.8452,0.9968,0.8702,0.9545,145.4,1848,380,297,553194,Sparkov Simulated Card Transactions
+sparkov,Linear SVM,False,0.9942,0.3618,0.6699,0.4698,0.9874,0.2901,2.6809,59.3,1437,2535,708,551039,Sparkov Simulated Card Transactions

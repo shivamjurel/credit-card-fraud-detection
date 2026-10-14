@@ -1,0 +1,226 @@
+{
+  "ulb": {
+    "selected_model": "Random Forest",
+    "models": {
+      "Logistic Regression": {
+        "accuracy": 0.999,
+        "precision": 0.6667,
+        "recall": 0.8261,
+        "f1_score": 0.7379,
+        "confusion_matrix": {
+          "true_negative": 56531,
+          "false_positive": 38,
+          "false_negative": 16,
+          "true_positive": 76
+        },
+        "roc_auc": 0.9916,
+        "pr_auc": 0.7198,
+        "threshold": 0.976,
+        "validation_f1": 0.7438,
+        "train_seconds": 11.4,
+        "has_probability": true
+      },
+      "Decision Tree": {
+        "accuracy": 0.9995,
+        "precision": 0.8861,
+        "recall": 0.7609,
+        "f1_score": 0.8187,
+        "confusion_matrix": {
+          "true_negative": 56560,
+          "false_positive": 9,
+          "false_negative": 22,
+          "true_positive": 70
+        },
+        "roc_auc": 0.9303,
+        "pr_auc": 0.712,
+        "threshold": 0.9997,
+        "validation_f1": 0.8148,
+        "train_seconds": 3.2,
+        "has_probability": true
+      },
+      "Random Forest": {
+        "accuracy": 0.9995,
+        "precision": 0.9333,
+        "recall": 0.7609,
+        "f1_score": 0.8383,
+        "confusion_matrix": {
+          "true_negative": 56564,
+          "false_positive": 5,
+          "false_negative": 22,
+          "true_positive": 70
+        },
+        "roc_auc": 0.9876,
+        "pr_auc": 0.8272,
+        "threshold": 0.7281,
+        "validation_f1": 0.8224,
+        "train_seconds": 13.0,
+        "has_probability": true
+      },
+      "Gradient-Boosted Trees": {
+        "accuracy": 0.9994,
+        "precision": 0.9014,
+        "recall": 0.6957,
+        "f1_score": 0.7853,
+        "confusion_matrix": {
+          "true_negative": 56562,
+          "false_positive": 7,
+          "false_negative": 28,
+          "true_positive": 64
+        },
+        "roc_auc": 0.9838,
+        "pr_auc": 0.5288,
+        "threshold": 0.9856,
+        "validation_f1": 0.7736,
+        "train_seconds": 87.7,
+        "has_probability": true
+      },
+      "Linear SVM": {
+        "accuracy": 0.9989,
+        "precision": 0.6481,
+        "recall": 0.7609,
+        "f1_score": 0.7,
+        "confusion_matrix": {
+          "true_negative": 56531,
+          "false_positive": 38,
+          "false_negative": 22,
+          "true_positive": 70
+        },
+        "roc_auc": 0.991,
+        "pr_auc": 0.6284,
+        "threshold": 2.6244,
+        "validation_f1": 0.7027,
+        "train_seconds": 52.4,
+        "has_probability": false
+      }
+    },
+    "feature_importances": {
+      "V14": 0.1866,
+      "V4": 0.1233,
+      "V17": 0.1141,
+      "V10": 0.1125,
+      "V12": 0.0833,
+      "V11": 0.078,
+      "V16": 0.0399,
+      "V3": 0.0387,
+      "V7": 0.0336,
+      "V2": 0.0211,
+      "V21": 0.0195,
+      "V9": 0.0148,
+      "V19": 0.0127,
+      "V18": 0.0097,
+      "Amount": 0.0083
+    }
+  },
+  "sparkov": {
+    "selected_model": "Random Forest",
+    "models": {
+      "Logistic Regression": {
+        "accuracy": 0.9942,
+        "precision": 0.3699,
+        "recall": 0.7142,
+        "f1_score": 0.4874,
+        "confusion_matrix": {
+          "true_negative": 550964,
+          "false_positive": 2610,
+          "false_negative": 613,
+          "true_positive": 1532
+        },
+        "roc_auc": 0.9869,
+        "pr_auc": 0.3148,
+        "threshold": 0.9592,
+        "validation_f1": 0.5637,
+        "train_seconds": 15.5,
+        "has_probability": true
+      },
+      "Decision Tree": {
+        "accuracy": 0.9978,
+        "precision": 0.7573,
+        "recall": 0.6326,
+        "f1_score": 0.6894,
+        "confusion_matrix": {
+          "true_negative": 553139,
+          "false_positive": 435,
+          "false_negative": 788,
+          "true_positive": 1357
+        },
+        "roc_auc": 0.9468,
+        "pr_auc": 0.5966,
+        "threshold": 0.9932,
+        "validation_f1": 0.7528,
+        "train_seconds": 5.6,
+        "has_probability": true
+      },
+      "Random Forest": {
+        "accuracy": 0.999,
+        "precision": 0.9118,
+        "recall": 0.8145,
+        "f1_score": 0.8604,
+        "confusion_matrix": {
+          "true_negative": 553405,
+          "false_positive": 169,
+          "false_negative": 398,
+          "true_positive": 1747
+        },
+        "roc_auc": 0.9965,
+        "pr_auc": 0.907,
+        "threshold": 0.8991,
+        "validation_f1": 0.8784,
+        "train_seconds": 59.1,
+        "has_probability": true
+      },
+      "Gradient-Boosted Trees": {
+        "accuracy": 0.9988,
+        "precision": 0.8294,
+        "recall": 0.8615,
+        "f1_score": 0.8452,
+        "confusion_matrix": {
+          "true_negative": 553194,
+          "false_positive": 380,
+          "false_negative": 297,
+          "true_positive": 1848
+        },
+        "roc_auc": 0.9968,
+        "pr_auc": 0.8702,
+        "threshold": 0.9545,
+        "validation_f1": 0.8774,
+        "train_seconds": 145.4,
+        "has_probability": true
+      },
+      "Linear SVM": {
+        "accuracy": 0.9942,
+        "precision": 0.3618,
+        "recall": 0.6699,
+        "f1_score": 0.4698,
+        "confusion_matrix": {
+          "true_negative": 551039,
+          "false_positive": 2535,
+          "false_negative": 708,
+          "true_positive": 1437
+        },
+        "roc_auc": 0.9874,
+        "pr_auc": 0.2901,
+        "threshold": 2.6809,
+        "validation_f1": 0.5441,
+        "train_seconds": 59.3,
+        "has_probability": false
+      }
+    },
+    "feature_importances": {
+      "amt": 0.2275,
+      "amt_sum_24h": 0.2191,
+      "log_amt": 0.1613,
+      "amt_to_avg_ratio": 0.1103,
+      "is_night": 0.1089,
+      "hour": 0.0543,
+      "category=gas_transport": 0.0232,
+      "card_avg_amt": 0.0182,
+      "hours_since_last": 0.0175,
+      "txn_count_24h": 0.0117,
+      "category=grocery_pos": 0.0078,
+      "age": 0.0047,
+      "category=travel": 0.0045,
+      "category=food_dining": 0.0035,
+      "category=shopping_net": 0.0033
+    }
+  }
+}

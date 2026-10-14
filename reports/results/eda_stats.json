@@ -1,0 +1,177 @@
+{
+  "ulb": {
+    "class_counts": {
+      "legitimate": 283253,
+      "fraud": 473
+    },
+    "amount_by_class": {
+      "legitimate": {
+        "mean": 88.41,
+        "median": 22.0,
+        "max": 25691.16
+      },
+      "fraud": {
+        "mean": 123.87,
+        "median": 9.82,
+        "max": 2125.87
+      }
+    },
+    "amount_t_test": {
+      "mean_legit": 88.4136,
+      "mean_fraud": 123.8719,
+      "t_statistic": 2.961,
+      "p_value": 0.003063114225750485,
+      "significant_at_5pct": true
+    },
+    "top_correlations": {
+      "V17": -0.3135,
+      "V14": -0.2934,
+      "V12": -0.2507,
+      "V10": -0.207,
+      "V16": -0.1872,
+      "V3": -0.1823,
+      "V7": -0.1723,
+      "V11": 0.1491,
+      "V4": 0.1293,
+      "V18": -0.1053,
+      "V1": -0.0945,
+      "V9": -0.094
+    }
+  },
+  "sparkov": {
+    "class_counts": {
+      "legitimate": 1842743,
+      "fraud": 9651
+    },
+    "amount_by_class": {
+      "legitimate": {
+        "mean": 67.65,
+        "median": 47.24,
+        "max": 28948.9
+      },
+      "fraud": {
+        "mean": 530.66,
+        "median": 389.57,
+        "max": 1376.04
+      }
+    },
+    "amount_t_test": {
+      "mean_legit": 67.6513,
+      "mean_fraud": 530.6614,
+      "t_statistic": 116.277,
+      "p_value": 0.0,
+      "significant_at_5pct": true
+    },
+    "fraud_rate_by_category": {
+      "shopping_net": 1.593,
+      "misc_net": 1.304,
+      "grocery_pos": 1.265,
+      "shopping_pos": 0.634,
+      "gas_transport": 0.411,
+      "misc_pos": 0.282,
+      "grocery_net": 0.27,
+      "travel": 0.269,
+      "personal_care": 0.223,
+      "entertainment": 0.218,
+      "kids_pets": 0.188,
+      "food_dining": 0.157,
+      "home": 0.151,
+      "health_fitness": 0.151
+    },
+    "fraud_rate_by_hour": {
+      "0": 1.357,
+      "1": 1.348,
+      "2": 1.304,
+      "3": 1.317,
+      "4": 0.102,
+      "5": 0.133,
+      "6": 0.089,
+      "7": 0.119,
+      "8": 0.098,
+      "9": 0.101,
+      "10": 0.086,
+      "11": 0.098,
+      "12": 0.09,
+      "13": 0.101,
+      "14": 0.107,
+      "15": 0.107,
+      "16": 0.103,
+      "17": 0.101,
+      "18": 0.118,
+      "19": 0.112,
+      "20": 0.105,
+      "21": 0.108,
+      "22": 2.601,
+      "23": 2.546
+    },
+    "fraud_rate_by_age_group": {
+      "18-24": 0.546,
+      "25-34": 0.453,
+      "35-44": 0.394,
+      "45-54": 0.514,
+      "55-64": 0.686,
+      "65+": 0.651
+    },
+    "fraud_rate_by_day": {
+      "Mon": 0.402,
+      "Tue": 0.468,
+      "Wed": 0.612,
+      "Thu": 0.637,
+      "Fri": 0.64,
+      "Sat": 0.567,
+      "Sun": 0.463
+    },
+    "fraud_rate_by_gender": {
+      "F": 0.483,
+      "M": 0.567
+    },
+    "top_states_by_fraud_count": {
+      "NY": 730,
+      "TX": 592,
+      "PA": 572,
+      "CA": 402,
+      "OH": 360,
+      "FL": 334,
+      "IL": 324,
+      "MI": 299,
+      "MN": 280,
+      "AL": 278
+    },
+    "fraud_by_month": {
+      "2019-01": 506,
+      "2019-02": 517,
+      "2019-03": 494,
+      "2019-04": 376,
+      "2019-05": 408,
+      "2019-06": 354,
+      "2019-07": 331,
+      "2019-08": 382,
+      "2019-09": 418,
+      "2019-10": 454,
+      "2019-11": 388,
+      "2019-12": 592,
+      "2020-01": 343,
+      "2020-02": 336,
+      "2020-03": 444,
+      "2020-04": 302,
+      "2020-05": 527,
+      "2020-06": 467,
+      "2020-07": 321,
+      "2020-08": 415,
+      "2020-09": 340,
+      "2020-10": 384,
+      "2020-11": 294,
+      "2020-12": 258
+    },
+    "chi_square_category_vs_fraud": {
+      "statistic": 8329.14,
+      "degrees_of_freedom": 13,
+      "p_value": 0.0
+    },
+    "insights": [
+      "'shopping_net' has the highest fraud rate (1.59%).",
+      "Fraud concentrates at hours [0, 1, 22, 23] (late night).",
+      "Average fraud amount 530.66 vs 67.65 for legitimate transactions."
+    ]
+  }
+}

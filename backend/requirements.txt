@@ -1,0 +1,19 @@
+# ---- Big Data / Machine Learning (spark_pipeline/ and backend/predictor.py) ----
+# PySpark needs Java 17 installed. On Windows also winutils.exe + hadoop.dll in C:\hadoop\bin (see README).
+pyspark==3.5.9
+setuptools==84.0.0          # provides 'distutils', which pyspark.ml imports but Python 3.12 removed
+pandas==2.2.3
+numpy==2.2.1
+matplotlib==3.11.2          # report charts (EDA + evaluation)
+scikit-learn==1.6.1         # only for drawing ROC/PR curves + the legacy baseline in ml/
+joblib==1.4.2
+
+# ---- Backend (API) ----
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+sqlalchemy==2.0.36
+
+# ---- Testing ----
+pytest==8.3.4
+httpx==0.28.1

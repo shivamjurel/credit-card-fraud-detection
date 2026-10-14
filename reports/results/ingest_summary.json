@@ -1,0 +1,14 @@
+{
+  "ulb": {
+    "rows_raw": 284807,
+    "rows_clean": 283726,
+    "fraud": 473,
+    "missing": {}
+  },
+  "sparkov": {
+    "rows_raw": 1852394,
+    "rows_clean": 1852394,
+    "fraud": 9651,
+    "missing": {}
+  }
+}
